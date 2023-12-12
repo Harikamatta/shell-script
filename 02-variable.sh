@@ -1,9 +1,9 @@
 #!/bin/bash
 
-PERSON$1=Robert
-PERSON$2=John
+$1=Robert
+$2=John
 
-echo "PERSON1 : Hello PERSON2 , Good Morning"
-echo "PERSON2 : Hello PERSON1 , Good Morning"
-echo "PERSON1 : Hello PERSON2 , How are you?"
-echo "PERSON2 : Hello PERSON1 , I'm doing great, howv are you doing?"
+echo "$1 : Hello $2 , Good Morning"
+echo "$2 : Hello $1 , Good Morning"
+echo "$1 : Hello $2 , How are you?"
+echo "$2 : Hello $1 , I'm doing great, howv are you doing?"

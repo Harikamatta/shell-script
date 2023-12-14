@@ -9,4 +9,11 @@ then
 else 
     echo "Your root user"
 fi #reverse of if indicationg condition
+
 yum install mysql -y
+if [ $? -ne 0]
+then 
+    echo "Error: : Installing failed"
+else
+    echo "Installing mysql is succes"
+fi    

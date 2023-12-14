@@ -6,8 +6,9 @@ VALIDATE(){
         if [ $1 -ne 0 ]
     then 
         echo "Error: : $2.. failed"
+        exit 1
     else
-        echo "Installing is success"
+        echo "$2.. success"
     fi    
 }
 

@@ -20,7 +20,9 @@ else
 fi #reverse of if indicationg condition
 
 yum install mysql -y
+
 VALIDATE $? "installing mysql"
 
 yum install git -y
+
 VALIDATE $? "installing git"

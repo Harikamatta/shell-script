@@ -11,7 +11,7 @@ else
 fi #reverse of if indicationg condition
 
 yum install mysqldfbzgdf -y
-if [ $? -ne 0]
+if [ $? -ne 0 ]
 then 
     echo "Error: : Installing failed"
 else

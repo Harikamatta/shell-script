@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if(today!="sunday")
+if(today!= "sunday")
 then
 echo "go to school"
 else 

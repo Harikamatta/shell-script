@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
-TIMESTAMP=$(DATE $F-$H-$M-$S)
+TIMESTAMP=$(date $F-$H-$M-$S)
 R="\e[31m"
 G="e[32m"
 Y="e[33m"
@@ -12,7 +12,7 @@ echo"script started executing at $TIMESTAMP" &>>LOGFILE
 VALIDATE(){
         if [ $1 -ne 0 ]
     then 
-        echo "Error: : $2.. $RFAILED $N"
+        echo "Error: : $2.. $R FAILED $N"
         exit 1
     else
         echo "$2.. $GSUCCESS $N"
